@@ -1,0 +1,7 @@
+{
+  "name": "dev_221_covid_19",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
