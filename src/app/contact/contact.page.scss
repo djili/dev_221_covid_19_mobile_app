@@ -1,0 +1,58 @@
+ion-toolbar{
+    border-bottom: 1px solid #fff102;
+}
+
+.header-logo{
+    width: 25%;
+}
+
+ion-title{
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.close{
+    color: #e10019;
+}
+
+ion-card{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    text-align: center;
+    box-shadow: none;
+}
+
+.header-img{
+    width: 50%;
+}
+
+ion-card-title{
+    padding: 20px 5px 20px 5px;
+    color: #01a551;
+    font-weight: 300;
+    border-bottom: 1px solid #fff102;
+}
+
+p{
+    text-align: left;
+    color: #718096;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.5;
+}
+
+.call-info{
+    margin: 20px 10%;
+    padding: 15px;
+    background-color: #e0e5ec;
+    border-radius: 5px;
+}
+
+.nmb-contact{
+    font-weight: 600;
+    font-size: 26px;
+    color: #01a551;
+    padding-bottom: 10px;
+}

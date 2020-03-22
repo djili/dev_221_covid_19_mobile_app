@@ -1,7 +1,8 @@
 {
   "name": "dev_221_covid_19",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

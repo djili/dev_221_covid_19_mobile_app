@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      COVID19-SN
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,27 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <img class="header-logo" src="../../assets/icon/logo.svg" alt="logo">
+      <ion-title size="large">COVID19-SN</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="container" routerLink="/chose" routerLinkActive="router-link-active" >
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Covid19 - Sénégal</ion-card-title>
+        <img src="../../assets/icon/logo.svg" alt="logo">
+      </ion-card-header>
+      <ion-card-content>
+        Les informations sûres et en temps réel sur le Corona Virus au Sénégal !
+      </ion-card-content>
+    </ion-card>
   </div>
+
+  <!-- Back -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="openModal()" color="success">
+      <ion-icon name="call-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>

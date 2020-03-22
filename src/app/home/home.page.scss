@@ -1,3 +1,21 @@
+ion-toolbar{
+  border-bottom: 1px solid #fff102;
+}
+
+.header-logo{
+  width: 25%;
+}
+
+ion-toolbar ion-title{
+  margin-left: 25%;
+  padding-bottom: 20px;
+}
+
+ion-card{
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: none;
+}
+
 #container {
   text-align: center;
 
@@ -6,6 +24,13 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  
+}
+
+ion-card-title{
+  font-size: 28px;
+  font-weight: 300;
+  color: #01a551;
 }
 
 #container strong {
@@ -17,7 +42,7 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  color: #718096;
 
   margin: 0;
 }

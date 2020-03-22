@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <img src="../../assets/icon/logo.svg" class="header-logo" alt="logo">
+    <ion-title>contact</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()">
+        <ion-icon class="close" slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="header">
+    <ion-card-header>
+      <img class="header-img" src="../../assets/imgs/Orange_Phone.png" alt="conversation">
+      <ion-card-title>
+        Les contacts d'urgence
+      </ion-card-title>
+      <p>Voici les numéros de téléphone à appeler en cas d'urgence concernant le Corona Virus.</p>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div class="call-info" (click)="callNow('221781721081')">
+        <h3 class="nmb-contact">+221 78 172 10 81</h3>
+        <h2 class="nmb-title">Numéro d'urgence</h2>
+      </div>
+      
+      <div class="call-info" (click)="callNow('221767659731')">
+        <h3 class="nmb-contact">+221 76 765 97 31</h3>
+        <h2 class="nmb-title">Numéro d'urgence</h2>
+      </div>
+      
+      <div class="call-info" (click)="callNow('221707171492')">
+        <h3 class="nmb-contact">+221 70 717 14 92</h3>
+        <h2 class="nmb-title">Numéro d'urgence</h2>
+      </div>
+      
+      <div class="call-info" (click)="callNow('800005050')">
+        <h3 class="nmb-contact">800 00 50 50</h3>
+        <h2 class="nmb-title">Ministère de la santé</h2>
+      </div>
+      
+      <div class="call-info" (click)="callNow('1515')">
+        <h3 class="nmb-contact">1515</h3>
+        <h2 class="nmb-title">SAMU</h2>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

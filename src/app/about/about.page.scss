@@ -1,0 +1,59 @@
+ion-toolbar{
+    border-bottom: 1px solid #fff102;
+}
+
+.header-logo{
+    width: 25%;
+}
+
+ion-card{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: none;
+}
+
+h2{
+    color: #718096;
+}
+
+ion-title{
+    font-size: larger;
+}  
+
+.header{
+    text-align: center;
+    box-shadow: none;
+}
+
+.description{
+    text-align: left;
+}
+
+.header-img{
+    width: 60%;
+}
+
+ion-card-title{
+    color: #01a551;
+    font-weight: 300;
+}
+
+.title{
+    padding: 20px 5px 20px 5px;
+    border-bottom: 1px solid #fff102;
+}
+
+.name{
+    font-weight: 600;
+    text-align: left;
+    font-size: 16px;
+}
+
+ion-icon{
+    padding: 7px;
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 22px;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+}

@@ -1,0 +1,40 @@
+ion-toolbar{
+    border-bottom: 1px solid #fff102;
+}
+
+.header-logo{
+    width: 25%;
+}
+
+ion-title{
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+}  
+
+ion-card{
+    box-shadow: none;
+}
+
+ion-card-title{
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+    color: #01a551;
+    font-weight: 300;
+    border-bottom: 1px solid #fff102;
+}
+
+.footer{
+    font-size: 16px;
+    text-align: right;
+    padding-top: 20px;
+    color: #718096;
+    font-weight: 300;
+    border-top: 1px solid #fff102;
+    border-bottom: none;
+    line-height: 1.7;
+    letter-spacing: 0.5;
+}
+
+.power-bi-data{
+    padding-left: 8px;
+}
