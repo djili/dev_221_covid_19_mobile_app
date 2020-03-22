@@ -8,6 +8,7 @@ ion-toolbar{
 
 ion-card{
     font-family: 'Montserrat', sans-serif;
+    box-shadow: none;
 }
 
 h2{
@@ -44,4 +45,16 @@ ion-row{
 
 .option img{
     width: 50%;
+}
+
+.footer{
+    font-size: 16px;
+    text-align: right;
+    padding-top: 20px;
+    color: #718096;
+    font-weight: 300;
+    border-top: 1px solid #fff102;
+    border-bottom: none;
+    line-height: 1.7;
+    letter-spacing: 0.5;
 }

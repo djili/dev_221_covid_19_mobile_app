@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-faq',
@@ -8,10 +7,7 @@ import { ModalController } from '@ionic/angular';
 })
 export class FaqPage implements OnInit {
 
-  constructor(private modalController: ModalController) {}
+  constructor() {}
   ngOnInit() {}
-  async closeModal() {
-    await this.modalController.dismiss();
-  }
 
 }

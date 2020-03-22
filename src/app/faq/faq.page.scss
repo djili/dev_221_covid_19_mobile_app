@@ -10,3 +10,47 @@ ion-title{
     font-size: larger;
     font-family: 'Montserrat', sans-serif;
 }  
+
+ion-card{
+    box-shadow: none;
+}
+
+ion-card-title{
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+    color: #01a551;
+    font-weight: 300;
+    border-bottom: 1px solid #fff102;
+}
+
+ion-content ion-card{
+    margin-top: 0px;
+}
+
+ion-content ion-card ion-card-header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.fac-title{
+    text-align: left;
+}
+
+.visite{
+    float: right;
+    color: #01a551;
+    font-size: 28px;
+}
+
+
+.footer{
+    font-size: 16px;
+    text-align: right;
+    padding-top: 20px;
+    color: #718096;
+    font-weight: 300;
+    border-top: 1px solid #fff102;
+    border-bottom: none;
+    line-height: 1.7;
+    letter-spacing: 0.5;
+}
