@@ -32,6 +32,11 @@ ion-title{
     width: 60%;
 }
 
+ion-slide ion-card{
+    margin: 0px;
+    border: 1px solid #fff102;
+}
+
 ion-card-title{
     color: #01a551;
     font-weight: 300;
@@ -45,15 +50,22 @@ ion-card-title{
 .name{
     font-weight: 600;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-ion-icon{
-    padding: 7px;
-    margin-left: 5px;
-    margin-top: 15px;
-    font-size: 22px;
-    color: #fff;
-    background: #000;
-    border-radius: 50%;
+.function{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer{
+    font-size: 16px;
+    text-align: right;
+    padding-top: 20px;
+    color: #718096;
+    font-weight: 300;
+    border-top: 1px solid #fff102;
+    border-bottom: none;
+    line-height: 1.7;
+    letter-spacing: 0.5;
 }
