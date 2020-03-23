@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title size="large">{{accueil.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col>
+        <ion-img src ="./assets/img/virus.png"></ion-img>
+        <ion-text align="center">{{accueil.prev}}</ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-img src ="./assets/img/doctor.png"></ion-img>
+        <ion-text align="center">{{accueil.diag}}</ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-img src ="./assets/img/question.png"></ion-img>
+        <ion-text align="center">{{accueil.faq}}</ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-align-items-center">
+      <ion-col>
+        <ion-img src ="./assets/img/map.png"></ion-img>
+        <ion-text align="center">{{accueil.map}}</ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-img src ="./assets/img/fake.png"></ion-img>
+        <ion-text align="center">{{accueil.fakeNews}}</ion-text>
+      </ion-col>
+      <ion-col>
+        <ion-img src ="./assets/img/call.png"></ion-img>
+        <ion-text align="center">{{accueil.call}}</ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
