@@ -1,6 +1,12 @@
 
 
 <ion-content>
-        <ion-img class src ="./assets/img/conversation.png" offset="2" size-sm></ion-img>
+        <ion-img class src ="./assets/img/conversation.png" size-sm></ion-img>
         <ion-button *ngFor="let langue of langues" [routerLink]="['./accueil', langue.id]" expand="block" disabled={{langue.disabled}} fill="outline" color="primary" shape="round">{{langue.title}}</ion-button>       
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Copyright 2020 covidsn.com</ion-title>
+  </ion-toolbar>
+</ion-footer>

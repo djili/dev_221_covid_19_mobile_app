@@ -10,7 +10,7 @@ export class AccueilService {
       title: 'ACCUEIL',
       langueId : 'l0',
       faq: 'QUESTION',
-      fakeNews : 'FAKE',
+      fakeNews : 'FAUSSE NOUVELLE',
       map: 'CARTE',
       call : 'URGENCE',
       diag : 'DIAGNOSTIQUE',
@@ -19,9 +19,6 @@ export class AccueilService {
   ];
   constructor() { }
 
-  getAllAccueils(){
-    return [...this.accueils];
-  }
 
   getAccueil(langueId: string){
     return this.accueils.find(accueils => {

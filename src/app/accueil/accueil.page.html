@@ -1,8 +1,5 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
     <ion-title size="large">{{accueil.title}}</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -19,13 +16,13 @@
         <ion-text align="center">{{accueil.diag}}</ion-text>
       </ion-col>
       <ion-col>
-        <ion-img src ="./assets/img/question.png"></ion-img>
+        <ion-img [routerLink]="['/langue/accueil/faq', accueil.langueId]" src ="./assets/img/question.png"></ion-img>
         <ion-text align="center">{{accueil.faq}}</ion-text>
       </ion-col>
     </ion-row>
     <ion-row class="ion-align-items-center">
       <ion-col>
-        <ion-img src ="./assets/img/map.png"></ion-img>
+        <ion-img [routerLink]="['/langue/accueil/map', accueil.langueId]" src ="./assets/img/map.png"></ion-img>
         <ion-text align="center">{{accueil.map}}</ion-text>
       </ion-col>
       <ion-col>
@@ -39,3 +36,9 @@
     </ion-row>
   </ion-grid>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title><ion-text size font-size="1">Copyright 2020 Seynabou Dimé</ion-text></ion-title>
+  </ion-toolbar>
+</ion-footer>

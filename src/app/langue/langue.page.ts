@@ -10,7 +10,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LanguePage implements OnInit {
   langues: Langue[];
- 
   constructor(private langueService: LangueService) { }
 
   ngOnInit() {

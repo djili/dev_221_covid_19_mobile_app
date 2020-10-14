@@ -12,11 +12,11 @@ const routes: Routes = [
     loadChildren: () => import('./accueil/accueil.module').then( m => m.AccueilPageModule)
   },
   {
-    path: 'faq',
+    path: 'langue/accueil/faq/:langueId',
     loadChildren: () => import('./faq/faq.module').then( m => m.FaqPageModule)
   },
   {
-    path: 'map',
+    path: 'langue/accueil/map/:langueId',
     loadChildren: () => import('./map/map.module').then( m => m.MapPageModule)
   },
 ];

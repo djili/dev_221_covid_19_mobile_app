@@ -1,18 +1,28 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Foire Aux Questions</ion-title>
+    <ion-title>{{faqs.title}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card>
-    <ion-card-header>
-      Question 
-    </ion-card-header>
-    <ion-card-content>
-      <ion-text color="light">
-        <h3>The quick brown fox jumps over the lazy dog</h3>
-      </ion-text>
-  </ion-card-content>
-  </ion-card>
+  <ion-list>
+    <ion-card *ngFor="let faq of faqs">
+      <ion-card-header>
+        <ion-text>
+          <h2>{{faq.questions.question}}</h2>
+        </ion-text>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-text>
+          <h3>{{faq.questions.reponse}}</h3>
+        </ion-text>
+    </ion-card-content>
+    </ion-card>
+  </ion-list>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title><ion-text size font-size="1">Copyright 2020 covidsn.com</ion-text></ion-title>
+  </ion-toolbar>
+</ion-footer>
