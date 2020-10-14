@@ -2,7 +2,7 @@
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Covid19SN</name>
     <description>une application mobile qui permet de prendre des informations à propos du covid 19 dans toutes les langues locales</description>
-    <author email="diopous1@gmail.com" href="http://covidsn.com">Team Dev 221 AND DAAN CORONA</author>
+    <author email="zeynabdims05@gmail.com" href="">SEYNABOU DIME</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
